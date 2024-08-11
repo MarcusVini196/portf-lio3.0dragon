@@ -1,0 +1,150 @@
+@media screen and (max-width: 959px){
+    header .menu-desktop, header .btn-contato {
+        display: none;
+    }
+    
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    /* Topo do site */
+    header .btn-menu-mob{
+        display: block;
+    }
+
+    .topo-site .txt-topo h1 {
+        font-size: 2em;
+        line-height: 35px;
+    }
+    
+    .topo-site .txt-topo p {
+       line-height: 25px;
+       font-size: 18px;
+    } 
+    
+    .topo-site .txt-topo p span{
+        display: inline;
+    }
+    
+    .topo-site button {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    /* Portfolio */
+    
+    .portfolio .itens-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+    
+    .portfolio .itens-container .img-itens img{
+       width: 90%;
+    }
+
+    .portfolio .itens-container .txt-itens h3{
+        font-size: 22px;
+    }
+
+    .portfolio .itens-container .txt-itens p {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .portfolio .itens-container .item-1 {
+        order: 1;
+    }
+
+    .portfolio .itens-container .item-2 {
+        order: 0;
+    }
+
+    /* Contatos */
+
+    .txt-contato, .icons-contato {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .txt-contato {
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    
+    .contato .txt-contato h3 {
+        font-size: 30px;
+    }
+
+    .contato .txt-contato p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .contato .icons-contato button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* Sobre mim */
+
+
+    .sobre h3 {
+        font-weight: 400;
+        color: #000;
+        line-height: 30px;
+        margin-bottom: 20px;
+        font-size: 2.3em;
+    }
+
+
+    .sobre p {
+        line-height: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    /* Como funciona */
+    
+    .txt-funciona, .instrucoes {
+        display: block;
+        width: 100%;
+    }
+    
+    .function .txt-funciona{
+        position: static;
+    }
+    
+    .function .txt-funciona h3 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+    
+    
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .instrucoes .instru-box h4{
+        font-size: 26px;
+    }
+    
+    .instrucoes .instru-box p {
+        font-size: 20px;
+    }
+
+    /* footer */
+
+    footer .bottom-footer p {
+        font-size: 14px;
+    }
+}
