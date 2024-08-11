@@ -47,22 +47,23 @@
         <section class="formulario">
             <div class="interface">
                 <h2 class="title-contato">Fala comigo</h2>
-                <form method="post" action="envia.php">
-                    <input type="text" name="nome" id="" placeholder="Seu Nome" required>
-                    <input type="text" name="email" id="" placeholder="Seu Email"  required>
-                    <input type="text" name="celular" id="" placeholder="Seu Celular">
-                    <textarea name="mensagem" id="" placeholder="Sua mensagem" style="resize: none;" required></textarea>
+                <form action="https://formsubmit.co/agenciamv.orcamentos@gmail.com" method="post">
+                    <input type="text" name="nome" id="nome" placeholder="Seu Nome" autocomplete="off" required>
+                    <input type="text" name="email" id="email" placeholder="Seu Email" autocomplete="off" required>
+                    <input type="text" name="celular" id="celular" autocomplete="off" placeholder="Seu Celular">
+                    <textarea name="mensagem" id="message" placeholder="Sua mensagem" style="resize: none;" required></textarea>
                     <div class="btn-enviar">
                         <input type="submit" value="ENVIAR">
                     </div>
                 </form>
+                <div id="responseMessage"></div>
             </div>
         </section>
     </main>
     
     <footer>
         <section class="top-footer">
-            <a href="https://www.instagram.com/marcus_desenvolvimento.web/"><button><i class="bi bi-instagram"></i></button></a>
+            <a href="https://www.instagram.com/mv_desenvolvimento.web/"><button><i class="bi bi-instagram"></i></button></a>
             <a href="https://www.youtube.com/@mvdesenvolvimentoweb"><button><i class="bi bi-youtube"></i></button></a>
             <a href="https://github.com/MarcusVini196"><button><i class="bi bi-github"></i></button></a>
         </section>
@@ -73,5 +74,6 @@
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/btn-menu-mob.js"></script>
+    <script src="assets/js/email.js"></script>
 </body>
 </html>
