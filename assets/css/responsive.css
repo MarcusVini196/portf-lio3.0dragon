@@ -64,6 +64,13 @@
         order: 0;
     }
 
+    .ver-mais {
+        margin: 20px;
+        width: 100px;
+        height: 70px;
+        font-size: 14px;
+    }
+
     /* Contatos */
 
     .txt-contato, .icons-contato {
