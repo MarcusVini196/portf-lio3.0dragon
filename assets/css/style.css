@@ -571,3 +571,9 @@ footer .bottom-footer {
 footer .bottom-footer p {
     margin-top: 20px;
 }
+
+#fcConsentRevocation button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
